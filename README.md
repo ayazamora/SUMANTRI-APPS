@@ -32,9 +32,8 @@
         <li><a href="#Installasi-Apps">Installasi Apps</a></li>
       </ul>
     </li>
-    <li><a href="#Cara Pengunaan">Cara Pengunaan</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#Cara-Pengunaan">Cara Pengunaan</a></li>
+    <li><a href="#Member">Contact</a></li>
   </ol>
 </details>
 
@@ -198,14 +197,15 @@ Cara menggunakan aplikasi ini sangatlah sederhana, berikut cara menggunakannya :
 ## Member
 
 <h4>KELOMPOK 7</h4>
+-SUMANTRI APPS-
+<br />
+Siti Nurhayati Apriyanti (Admin Laundry) - NIM
 
-Siti Nurhayati Apriyanti - NIM
+Fathia (Karyawan Laundry) - NIM
 
-Fathia - NIM
+Luthfia (Karyawan Laundry) - NIM
 
-Luthfia - NIM
-
-Anwar - NIM
+Anwar (Karyawan Laundry) - NIM
 
 
 

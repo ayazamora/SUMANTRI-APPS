@@ -200,11 +200,11 @@ Cara menggunakan aplikasi ini sangatlah sederhana, berikut cara menggunakannya :
 -SUMANTRI APPS-
 <br />
 Anwar (Karyawan Laundry) - D212011001
-
+<br />
 Fathia Andini Nurhairani (Karyawan Laundry) - D212011010
-
+<br />
 Luthfiah Affah (Karyawan Laundry)  - D212011017
-
+<br />
 Siti Nurhayati Apriyanti (Admin Laundry) - D212011053
 
 

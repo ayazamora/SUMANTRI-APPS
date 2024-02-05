@@ -3,10 +3,11 @@
 <div align="center">
 
 
-  <h3 align="center">SUMANTRI APPS</h3>
-
+<h3 align="center">SUMANTRI APPS</h3>
   <p align="center">
-    Aplikasi Pengelolaan Laundry
+      Aplikasi Pengelolaan Laundry
+    <br />
+  ${\color{yellow}(Sistem \space Manajemen \space Proyek \space Akuntansi)}$
     <br />
     Akuntansi | Politeknik TEDC Bandung
   </p>

@@ -28,14 +28,11 @@
     <li>
       <a href="#Pendahuluan">Pendahuluan</a>
       <ul>
-        <li><a href="#Kebutuhan-Apps">Installasi Apps</a></li>
+        <li><a href="#Kebutuhan-Apps">Kebutuhan Apps</a></li>
         <li><a href="#Installasi-Apps">Installasi Apps</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#Cara Pengunaan">Cara Pengunaan</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -125,7 +122,15 @@ _Ikuti langkah demi langkah jangan diskip agar tidak error atau bermasalah._
    ```sh
    npm install && npm run build
    ```
-8. Jika sudah seperti itu tinggal jalankan Apps dengan membuka dibrowser (JIKA MNEGGUNAKAN LARAGON/XAMPP) "http://localhost/SUMANTRI-APPS/Public" atau perintah dengan ketik :
+8. Setelah prosess install dan build tersebut selesai, masih di CMD yang barusan kita lakukan migrasi database laravel (PASTIKAN JIKA MENGGUNAKAN LARAGON/XAMPP, nyalakan MySQL), untuk melakukan migrasi ketik :
+   ```sh
+   php artisan migrate
+   ```
+9. Prosess migrasi database beres langsung lakukan seeder untuk membuat akun Admin (default), dengan ketik :
+    ```sh
+    php artisan db:seed
+    ```
+10. Jika sudah seperti itu tinggal jalankan Apps dengan membuka dibrowser (JIKA MNEGGUNAKAN LARAGON/XAMPP) "http://localhost/SUMANTRI-APPS/Public" atau perintah dengan ketik :
 ```sh
 php artisan serve
 ```
@@ -138,29 +143,56 @@ php artisan serve
 <!-- USAGE EXAMPLES -->
 ## Cara Pengunaan
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Cara menggunakan aplikasi ini sangatlah sederhana, berikut cara menggunakannya :
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Buka
+2. Kemudian Login dengan akun Admin (default) berikut:
+ ```sh
+ Email: ayaapriyanti16@gmail.com
+ Password: 12345678
+```
+<br />
 
+![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/3cb8f7fa-0840-431f-a844-c8bc76d8ead6)
+
+3. Setelah login, kamu akan diarahkan ke halaman dashboard Admin
+   
+   ![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/6c0302a5-aebb-4952-836a-765f3bdc6aae)
+
+5. Di dashboard Admin, selain kamu bisa mendapatkan laporan laundry, kamu juga bisa menambahkan Karyawan
+
+   ![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/d0800252-2b60-415f-82a2-e686a5a174de)
+
+   ![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/51f1ca5b-3e09-4473-8a6d-bb568387f077)
+
+7. Selain Menambahkan Karyawan, admin juga bisa mengedit informasi bahkan menghapus karyawan
+
+   ![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/ec2f010a-6882-4ca0-9317-75f37e228eb1)
+
+![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/0a34f8ba-f1a8-411f-a679-4b2578ba92eb)
+
+8. Setelah akun karyawan terbuat, logout dulu kemudian login dengan menggunakan akun karyawan yang telah kamu buat
+9. Maka akan langsung diarahkan ke dashboard karyawan
+
+![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/9277ca4c-af99-4301-89ea-66754616b3cc)
+
+![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/10b4f172-a564-4d5c-9828-8a6086d597dd)
+
+![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/d43254eb-0667-4f0c-9bfa-2d2ff4b94864)
+
+10. Di Dashboard Karyawam kamu dapat melihat progress kamu sendiri, serta kamu juga dapat menambahkan customer/pelanggan baru
+
+![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/4cd83c65-232b-4a78-aca7-7d90bf257dfd)
+
+11. Selain itu kamu juga dapat melihat laporan customer dan mengedit statusnya sesuai dengan progress cucian
+
+    ![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/d8aa338f-b870-4ec7-a572-3fb78074ca87)
+
+![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/9d19e199-4720-4343-a5e2-db4c635014c6)
+
+12. Nah, itu dia cara penggunaan aplikasi, simple dan efektif! Selamat Mencoba!
+    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -178,16 +210,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -216,8 +238,6 @@ Use this space to list resources you find helpful and would like to give credit 
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -250,3 +270,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+
+

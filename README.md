@@ -22,14 +22,14 @@
     <li>
       <a href="#Tentang-SUMANTRI-APPS">Tentang Sumantri Apps</a>
       <ul>
-        <li><a href="#built-with">Dibangun Dengan</a></li>
+        <li><a href="#Dibangun-dengan">Dibangun Dengan</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Pendahuluan">Pendahuluan</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Kebutuhan-Apps">Installasi Apps</a></li>
+        <li><a href="#Installasi-Apps">Installasi Apps</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -84,31 +84,59 @@ Aplikasi ini dibuat dengan bantuan framework dan alat bantu lainnya seperti yang
 Pastikan kamu sudah menginstall Laragon/Xampp untuk webserver menjalankan aplikasi, selain itu pastikan juga kamu sudah menginstall NodeJS dan Composer ya!
 Dan juga jangan lupa download dan install juga aplikasi GIT ya wajib! <a href="https://git-scm.com/downloads">Download GIT (klik disini)</a> 
 
-### Installation
+### Kebutuhan Apps
+
++ Download terlebih dahulu kebutuhan apps yaitu file  ${\color{green} requirements.zip}$, agar aplikasi berjalan
+```sh
+https://github.com/ayazamora/sumantri-apps-support/blob/main/requirements.zip
+```
+
+### Installasi Apps
 
 _Ikuti langkah demi langkah jangan diskip agar tidak error atau bermasalah._
 
 1. Buka Command Line (CMD) atau Terimal di dalam folder _www_ atau _htdocs_ (sesuaikan kamu pakainya laragon atau xampp) dan sejenisnya
 2. Pastikan path pada CMD atau Terminal sudah berada dalam folder lalu Clone Repository dengan menggunakan GIT, ketik :
    ```sh
-   git clone https://github.com/ayazamora/Sistem-Manajemen-Proyek-Akuntansi.git
+   git clone https://github.com/ayazamora/SUMANTRI-APPS.git
    ```
-2. Ketika sudah beres proses kloningnya, masuk ke folder hasil clone atau di CMD ketik :
+3. Ketika sudah beres proses kloningnya, masuk ke folder hasil clone dan ekstrak file ${\color{green} requirements.zip}$ di dalam folder tersebut
+4. Setelah proses ekstrak beres, buka CMD dan ketikan dan arahkan CMD ke _path_ folder hasil klonning, misal kamu menggunakan laragon pathnya _"(Disk C:\D:\E) \laragon\www\SUMANTRI-APPS"_
    ```sh
-   cd Sistem-Manajemen-Proyek-Akuntansi
+   cd SUMANTRI-APPS
    ```
-3. Jika sudah ada didalam path folder projectnya, ketik :
+   atau
+   <br />
    ```sh
-   composer update
+   cd (Disk C:\D:\E) \laragon\www\SUMANTRI-APPS
    ```
-4. 
+  
+   contoh:
+   <br />
+   ```sh
+   cd D:\laragon\www\SUMANTRI-APPS
+   ```
+   <br />
+   <h4>Preview Contoh: </h4>
+   
+   ![image](https://github.com/ayazamora/SUMANTRI-APPS/assets/158838638/97e00132-ee7d-4146-87aa-00e43daef531)
+
+6. Kemudian di CMD tersebut ketik :
+   ```sh
+   npm install && npm run build
+   ```
+8. Jika sudah seperti itu tinggal jalankan Apps dengan membuka dibrowser (JIKA MNEGGUNAKAN LARAGON/XAMPP) "http://localhost/SUMANTRI-APPS/Public" atau perintah dengan ketik :
+```sh
+php artisan serve
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Cara Pengunaan
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 

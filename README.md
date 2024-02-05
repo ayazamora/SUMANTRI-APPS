@@ -33,7 +33,7 @@
       </ul>
     </li>
     <li><a href="#Cara-Pengunaan">Cara Pengunaan</a></li>
-    <li><a href="#Member">Contact</a></li>
+    <li><a href="#Member">Member of Kelompok 7</a></li>
   </ol>
 </details>
 
